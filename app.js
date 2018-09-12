@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
   for (i = 0; i < rows; i++){
     const row = document.createElement('div');
-    row.setAttribute('class', 'row'); // first arguement, what type do you wantt? so basically id your class example
+    row.setAttribute('class', 'row'); 
     board.appendChild(row);
 
     for (j = 0; j < columns; j++){
